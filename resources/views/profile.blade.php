@@ -12,31 +12,26 @@
                     <h4 style="font-weight: bold">Profile</h4>
                     <hr>
                     <center>
-                    <img src="dist/img/jomss.jpg" alt="foto joms" style="width:570px"> <br><br> 
+                    <img src="dist/img/joms.jpg" alt="foto joms" style="width:570px"> <br><br> 
                     </center>
                     
                     <h5 style="font-weight: bold">Biodata {{ $rfull_name }}</h5>
-                    Nama Pagglan : {{ $rname }} <br>
+                    Nama Lengkap : {{ $rfull_name }} <br>
                     NIM : {{ $rnim }} <br>
                     Absen : {{ $rabsen }} <br><br>
                     {{ $rbio }}<br><hr> <br>
 
                     <h5 style="font-weight: bold">Biodata {{ $sfull_name }}</h5>
-                    Nama Panggilan : {{ $sname }} <br>
+                    Nama Lengkap : {{ $sfull_name }} <br>
                     NIM : {{ $snim }} <br>
                     Absen : {{ $sabsen }} <br><br>
                     {{ $sbio }}<br><hr><br>
 
                     <h5 style="font-weight: bold">Biodata {{ $zfull_name }}</h5>
-                    Nama Panggilan : {{ $zname }} <br>
+                    Nama Lengkap : {{ $zfull_name }} <br>
                     NIM : {{ $znim }} <br>
                     Absen : {{ $zabsen }} <br><br>
                     {{ $zbio }}<br>
-
-                    
-                    
-                    
-                
                 <br>
             </div>
             </div>
