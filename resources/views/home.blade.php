@@ -1,9 +1,3 @@
-@push('js')
-<script>
-  alert('Selamat Datang');
-</script>
-@endpush
-
 @extends('layout.main')
 
 @section('judul')
