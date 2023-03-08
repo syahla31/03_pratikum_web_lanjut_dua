@@ -16,19 +16,19 @@
                     </center>
                     
                     <h5 style="font-weight: bold">Biodata {{ $rfull_name }}</h5>
-                    Nama Lengkap : {{ $rfull_name }} <br>
+                    Nama Pagglan : {{ $rname }} <br>
                     NIM : {{ $rnim }} <br>
                     Absen : {{ $rabsen }} <br><br>
                     {{ $rbio }}<br><hr> <br>
 
                     <h5 style="font-weight: bold">Biodata {{ $sfull_name }}</h5>
-                    Nama Lengkap : {{ $sfull_name }} <br>
+                    Nama Panggilan : {{ $sname }} <br>
                     NIM : {{ $snim }} <br>
                     Absen : {{ $sabsen }} <br><br>
                     {{ $sbio }}<br><hr><br>
 
                     <h5 style="font-weight: bold">Biodata {{ $zfull_name }}</h5>
-                    Nama Lengkap : {{ $zfull_name }} <br>
+                    Nama Panggilan : {{ $zname }} <br>
                     NIM : {{ $znim }} <br>
                     Absen : {{ $zabsen }} <br><br>
                     {{ $zbio }}<br>

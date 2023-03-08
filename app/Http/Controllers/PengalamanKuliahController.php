@@ -11,11 +11,14 @@ class PengalamanKuliahController extends Controller
         
         return view('pengalaman')
             ->with('sfull_name', 'Syahla Syafiqah Fayra')
-            ->with('spengalaman', 'Hidup adalah perjalanan, maka kita perlu jalan-jalan untuk hidup')
+            ->with('sname', 'Syahla')
+            ->with('spengalaman', '"Hidup adalah perjalanan, maka kita perlu jalan-jalan untuk hidup"')
             ->with('rfull_name', 'Rr. Denti Nurramadhona')
-            ->with('rpengalaman', 'Kuliah sangat menyenangkan, apalagi jika ips kurang 0.5 ke sempurna :)')
+            ->with('rname', 'Denti')
+            ->with('rpengalaman', '"Kuliah sangat menyenangkan, apalagi jika ips kurang 0.5 ke sempurna :)"')
             ->with('zfull_name', 'Zahra Annisa Wahono')
-            ->with('zpengalaman', 'Di era teknologi yang semakin maju ini, dunia IT semakin luas yang membuat seorang Zahra bingung mau ngapain')
+            ->with('zname', 'Zahra')
+            ->with('zpengalaman', '"Di era teknologi yang semakin maju ini, dunia IT semakin luas yang membuat seorang Zahra bingung mau ngapain"')
             ;
     }
 }
